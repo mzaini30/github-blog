@@ -1,0 +1,36 @@
+{
+  "name": "github-blog-zen",
+  "version": "1.0.0",
+  "description": "Tools untuk menambahkan blog di README",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "pack": "tsx script/pack.ts",
+    "prepublishOnly": "npm run pack"
+  },
+  "bin": {
+    "blog": "dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzaini30/github-blog.git"
+  },
+  "keywords": [
+    "github",
+    "readme",
+    "blog"
+  ],
+  "author": "Muhammad Zaini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzaini30/github-blog/issues"
+  },
+  "homepage": "https://github.com/mzaini30/github-blog#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "esbuild": "^0.14.49",
+    "node-fetch": "^3.2.6",
+    "tsx": "^3.7.1"
+  }
+}
