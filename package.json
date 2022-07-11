@@ -1,6 +1,6 @@
 {
   "name": "github-blog-zen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tools untuk menambahkan blog di README",
   "files": [
     "dist"
@@ -27,10 +27,12 @@
     "url": "https://github.com/mzaini30/github-blog/issues"
   },
   "homepage": "https://github.com/mzaini30/github-blog#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  },
   "devDependencies": {
     "@types/node": "^18.0.3",
     "esbuild": "^0.14.49",
-    "node-fetch": "^3.2.6",
     "tsx": "^3.7.1"
   }
 }
