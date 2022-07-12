@@ -13,8 +13,8 @@ async function dapatkan() {
 ## Blog
 
 ${data.map(
-  (x) => `- [${x.judul}](https://github.zenia.my.id/tulisan/${x.slug})\n`
-)}
+  (x) => `- [${x.judul}](https://github.zenia.my.id/tulisan/${x.slug})`
+).join("\n")}
 $3`
   );
   writeFileSync("README.md", readme);

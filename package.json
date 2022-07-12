@@ -1,6 +1,6 @@
 {
   "name": "github-blog-zen",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tools untuk menambahkan blog di README",
   "files": [
     "dist"
